@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<!--tabla-->
+    <table style="width: 500px;">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+       <tbody>
+            <tr>
+                <td>Hola bits</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>chancito feliz</td>
+                <td>19.90</td>
+            </tr>
+            <tr>
+                <td>chancito feliz muy feliz</td>
+                <td>29.90</td>
+            </tr>
+       </tbody>
+       <tfoot>
+            <td></td>
+            <td>total: 49.80</td>
+       </tfoot>
+    </table>
+
+<!--UL Lista no ordenado-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+<!--OL lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elmento 1</li>
+                <li style="list-style-type: lower-alpha;">Sub elmento 2</li>
+                <li style="list-style-type: lower-alpha;">Sub elmento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <!-- para recopilar datos-->
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="por Defecto" type="text" id="nombre" name="nombre" placeholder="Nombre..."/>
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido..."/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese comentario.."></textarea>
+        <br>
+        <button type="button">Tipo botton</button>
+        <button type="reset">Reset</button>
+        <button type="submit">tipo submit</button>
+    </form>
+    <h1>Mi primer Heading</h1>
+    <h2>Mi segundo Heading</h2>
+    <h3>Mi tercer Heading</h3>
+    <h4>MI cuarto Heading</h4>
+    <h5>Mi quinto Heading</h5>
+    <h6>mi sexto heading</h6>
+    <p>chacito esta muy feliz</p>
+    <p>chancito esta muy triste</p>
+    <hr>
+    <h2>chancito felipe</h2>
+    <p>
+        Este texto es <span style="color: blue;">mucho mas largo</span> 
+         y es para mostrar <br><br>
+         la tiqueta span!
+    </p>
+
+    <a target="_blank" href="https://www.google.com.gt">Ir a google</a>
+    <img src="img/html.png" width="400"/>
+
+ 
+</body>
+</html>
